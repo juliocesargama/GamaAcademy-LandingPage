@@ -1,0 +1,156 @@
+/* Componentes */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+p{
+  text-align: center;
+}
+
+form{
+  display: grid;
+}
+
+footer{
+  height: 15vh;
+  padding: 25px;
+  border-radius: 50px 50px 0 0;
+  background-color: #000;
+  color: #fff;
+  font-size: small;
+  text-align: center;
+}
+/* Classes */
+.section-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-section-one{
+  background-image: url(../assets/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 30px 30px;
+}
+
+.background-section-two{
+  background-image: url(../assets/bg1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-container{
+  background: #fff;
+  border-radius: 25px;
+  padding: 20px;
+  width: 50%;
+  color: #000;
+  border-style:dotted;
+}
+
+.lead-container{
+  display: grid;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.lead-container figcaption {
+  position: absolute;
+  top: 230px;
+  right:70px;
+  left: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+  text-shadow: 0px 3px 5px red;
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+.communication{
+ margin-bottom: 20px;
+ text-align: center;
+}
+
+.image-load{
+  position: relative;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.image-load img{
+  width: 30vh;
+  padding-bottom: 10px;
+}
+/* IDs */
+#img-gama{
+  width: 25vh;
+  top: 50%;
+  left: 50%;
+}
+
+#img-seta{
+  width: 100px;
+  transform: rotate(90deg);
+  float:inline-end;
+}
+
+#img-explosao{
+  width: 100vh;
+}
+
+#txtNome, #txtEmail, #btnCadastrar{
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size:15px;
+}
+
+ #lblConcessao{
+  font-size: small;
+  cursor: pointer;
+}
+
+#btnCadastrar{
+  background-color: #000;
+  color: #fff;
+  transition: background-color 2s;
+  transition: color 2s;
+}
+
+#btnCadastrar:hover{
+  background-color: red;
+  color: #000;
+  cursor: pointer;
+}
+/* Media Query */
+@media (max-width: 600px) {
+
+  #img-explosao{
+    width: 60vh;
+  }
+
+  .lead-container figcaption{
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    right:25px;
+    left: 25px;
+  }
+
+  footer {
+    margin-top: calc(10px - 100px); }
+   }
+
