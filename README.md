@@ -14,7 +14,7 @@ Landing page para coleta de dados para envio de newsletter e outras informaçõe
 - JavaScript Vanilla
 
 ### Instalação
-Não é necessária a instalação, a página ficará disponível online no [Netlify]().
+Não é necessária a instalação, a página ficará disponível online no [Netlify](https://landing-pagehc2.netlify.app/).
 ### Referências
 Conteúdo utilizado para elaboração do projeto encontra-se em conformidade com a playlist dos cursos disponibilizados pela Gama Academy.
 
