@@ -1,9 +1,8 @@
 # Landing Page
 ### _Desafio #1 - Hiring Coders 2_
+### Status: Concluído.
 
 Landing page para coleta de dados para envio de newsletter e outras informações, utilizado como exemplo a "Super" Friday.
-
-### Status: Concluído.
 
 ### Características:
 - SPA (Single Page Aplication);
